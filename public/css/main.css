@@ -58,6 +58,18 @@ main {
 	min-height: calc(90vh - 60px);
 }
 
+.jumbotron {
+	margin: 0px;
+}
+
+.main__container {
+	padding: 20px;
+}
+
+.polls__container {
+	padding-bottom: 10px;
+}
+
 footer {
 	height: 10vh;
 	background-color: #222;
