@@ -55,7 +55,7 @@ header span {
 }
 
 main {
-	min-height: calc(90vh - 60px);
+	min-height: calc(100vh - 100px);
 }
 
 .jumbotron {
@@ -71,9 +71,9 @@ main {
 }
 
 footer {
-	height: 10vh;
+	height: 40px;
 	background-color: #222;
 	color: #fff;
 	text-align: center;
-	line-height: 10vh;
+	line-height: 40px;
 }

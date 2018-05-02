@@ -1,0 +1,20 @@
+header
+  span
+    a(href='/') Voting app!
+    
+  if !user
+    section.menu
+      a.btn.btn-success(href='/auth/github')
+        i.fab.fa-github
+        |  Login
+  
+  else
+    section.menu
+      a.btn.btn-default
+        i.fab.fa-github
+        |  #{user.github.username}
+      a.btn.btn-default(href='/mypolls')
+        |  My Polls
+      a.btn.btn-default(href='/logout')
+        |  logout
+  

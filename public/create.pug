@@ -1,0 +1,28 @@
+doctype html
+
+html
+
+  include partial/head.pug
+
+  body
+    include partial/header.pug
+  
+    main.bg-light
+      .main__container
+        h1
+          | New Poll
+        hr
+        form
+          br
+          label
+            | Title
+          input.form-control
+          br
+          label
+            | Options (separated by comma)
+          textarea.form-control(rows='5')
+          br
+          a.btn.btn-success.float-right.text-white
+            | Create new poll
+      
+    include partial/footer.pug
